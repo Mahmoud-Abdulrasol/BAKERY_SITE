@@ -1,0 +1,99 @@
+/* =====GLOBAL STYLE===== */
+body {
+    background-color: var(--main-color);
+}
+
+:root {
+    --margin: 80px;
+    --main-color: #8D7B68;
+    --sec-color: #A4907C;
+    --third-color: #C8B6A6;
+    --text-color: #F1DEC9;
+    --foot-color: #403D38;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: sec;
+    color: var(--text-color);
+}
+
+span {
+    font-family: sec;
+}
+
+h2 {
+    font-family: main;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "main";
+    src: url(../FONT/Alegreya-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "sec";
+    src: url(../FONT/AlegreyaSans-Regular.ttf);
+    font-weight: 400;
+}
+
+/* =====Nav-bar====== */
+
+.my-nav {
+    z-index: 99999;
+}
+
+.my-nav a {
+    color: black;
+    transition: all 0.5;
+
+}
+
+.my-nav a:hover {
+    color: #9A8B6B;
+}
+
+/* ===== END-Nav-bar====== */
+.head {
+    background-image: url(../images/alexandru-stavrica.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
+    color: var(--text-color);
+    margin-bottom: var(--margin);
+
+}
+
+.head .text {
+
+    width: 50%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head h1 {
+    font-family: main;
+    font-size: 75px;
+}
+
+/* ====END-HEAD===== */

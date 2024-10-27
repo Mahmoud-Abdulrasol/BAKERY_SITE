@@ -1,0 +1,264 @@
+/* =====GLOBAL STYLE===== */
+body {
+    background-color: var(--main-color);
+}
+
+:root {
+    --margin: 80px;
+    --main-color: #8D7B68;
+    --sec-color: #A4907C;
+    --third-color: #C8B6A6;
+    --text-color: #F1DEC9;
+    --foot-color: #403D38;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: sec;
+    color: var(--text-color);
+}
+
+span {
+    font-family: sec;
+}
+
+h2 {
+    font-family: main;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "main";
+    src: url(../FONT/Alegreya-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "sec";
+    src: url(../FONT/AlegreyaSans-Regular.ttf);
+    font-weight: 400;
+}
+
+/* =====Nav-bar====== */
+
+
+.my-nav a {
+    color: white;
+    transition: all 0.5;
+}
+
+.my-nav a:hover {
+    color: #9A8B6B;
+}
+
+/* ===== END-Nav-bar====== */
+.head {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: var(--margin);
+}
+
+.head .container .text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-color);
+}
+
+.head .text span {
+    font-size: 22px;
+    font-family: sec;
+}
+
+
+.head .text h1 {
+    font-family: main;
+    font-size: 76px;
+}
+
+.button button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 30px 20px;
+    color: white;
+    transition: all 0.5s;
+    font-family: sec;
+}
+
+.button button:hover {
+    color: black;
+    background-color: white;
+}
+
+.button .diff {
+    background-color: #8E7754;
+    transition: all 0.5s;
+    border: 2px solid #8E7754;
+}
+
+.button .diff:hover {
+    background-color: white;
+    border-color: white;
+}
+
+
+/* =====END-HEADER====== */
+.first {
+    margin-bottom: var(--margin);
+    color: var(--text-color);
+}
+
+.first .icon i {
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.first .icon i:hover {
+    color: white;
+    background-color: #9A8B6B;
+}
+
+/* =====END_FIRST====== */
+.secend {
+    margin-bottom: var(--margin);
+    background-color: var(--sec-color);
+    color: var(--text-color);
+}
+
+/* =====END_SEC===== */
+.third .header {
+    color: var(--text-color);
+}
+
+.third h3 {
+    color: var(--text-color);
+    margin-top: 5px;
+}
+
+/* ======END_THIRD===== */
+.four {
+    margin-top: var(--margin);
+    background-color: var(--sec-color);
+    color: var(--text-color);
+}
+
+.four .icon i {
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.four h4 {
+    color: var(--third-color);
+}
+
+.four .icon i:hover {
+    color: white;
+    background-color: #9A8B6B;
+}
+
+/* =====END_FOUR===== */
+.five {
+    margin-top: var(--margin);
+    background-color: var(--foot-color);
+    color: var(--text-color);
+}
+
+.five ul {
+    list-style: disc;
+}
+
+.five .icon {
+    color: var(--text-color);
+}
+
+.back {
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    border: 2px solid #403D38;
+    background-color: var(--sec-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    transition: all 1s;
+    z-index: 88989;
+}
+
+.back:hover {
+    background-color: black;
+
+}
+
+/* =====END_five===== */
+.last {
+    margin-top: var(--margin);
+    color: var(--text-color);
+
+}
+
+.last .icon .link {
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    background-color: transparent;
+    transition: all 1s;
+
+}
+
+.last .icon .link:hover {
+
+    background-color: wheat;
+}
+.last i {
+    color: white;
+    transition: all 1s;
+}
+.last .icon .link:hover i{
+    color: var(--foot-color);
+}
+/* =====END===== */
